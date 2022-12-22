@@ -1,0 +1,15 @@
+{
+    "name": "adm/electro-maroc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "AbdelillahElasri1",
+            "email": "elasriabdelilah68@gmail.com"
+        }
+    ],
+    "require": {}
+}
