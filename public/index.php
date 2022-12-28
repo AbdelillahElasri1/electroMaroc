@@ -1,14 +1,5 @@
 <?php
- require_once __DIR__ . '/vendor/autoload.php';
-    use app\core\application;
-    $app = new application();
+  require_once '../app/bootstrap.php';
 
-$app->router->get('/',function(){
-    return 'hello world';
-});
-
-    $app->router->get('/contact',function(){
-        return 'contact world';
-    });
-
-    $app->run();
+  // Init Core Library
+  $init = new Core;
