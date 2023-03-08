@@ -1,0 +1,18 @@
+.n:hover{
+    border-bottom: 2px solid #F6BD3B;
+    transition: all 0.3s;
+}
+.logo{
+
+}
+.product{
+    width: 319px;
+    height: 377px;
+    background-color: rgb(146, 146, 146);
+    border-radius: 10px;
+}
+.products{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
